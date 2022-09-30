@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Personal Portfolio website | curriculum vitae </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28f2cb4c14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ------------------------------------------- header -------------------------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="./images/a.png"  class="logo" alt="logo">
+            <ul id="sidemenu">
+               <li> <a href="#header">Home</a></li>  
+               <li> <a href="#about">About</a></li>
+               <li> <a href="#services">Services</a></li>
+               <li> <a href="#portfolio">Portfolio</a></li>
+               <li> <a href="#contact">contact Us</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()" ></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Crypto Advisor and Developer</p>
+                <h1>Hi, I'm <span>Anmol</span>
+                    <br>Jain From India. </h1>
+            </div>
+       </div>
+    </div>
+<!--  ---------------------------------------- about --------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/useranmol.jpeg" width="642px" height="476px" alt="use img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hii everyone, I am anmol Jain. I am a 3rd year Undergraduate student currently pursuing Integrated B-Tech and M-Tech in Information Technology from International International Institute of Professinal Studies,IIPS,DAVV Indore.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick= "opentab('skills')" >Skills</p>
+
+                        <p class="tab-links " onclick="opentab('experience')">Experience </p>
+                       
+                        <p class="tab-links " onclick="opentab ('education')" >Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web3</span><br> Blockchain Analysis · Dapps development · CryptoCurrencies Analyst · NFTCreator 
+                            <li><span>Languages</span><br> Solidity · Java · Python · Smart Contracts · Solona </li>
+                            <li><span>Freelance</span><br> Content Management · Content Strategy · Content Development · Content Writing </li>
+                            <li><span>Soft Skills</span><br>English · Communication · Writing · Marketing · Leardership · Management  </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>Academy advisor</span><br>working as a academy advisor. <br>Responsibility of work:-  
+                                Researching and Analyzing information about crypto education. making brand awareness for Nice academy. creating content for Nice academy and creating online images. <br>N1CE - The Crypto Experts · FreelanceN1CE - The Crypto Experts · Freelance <br>
+                                Apr 2021 - Mar 2022 · 1 yrApr 2021 - Mar 2022 · 1 yr                             
+                            </li>
+                            <li> <span>Blockchain Researchers</span><br> Airdrop Ninja top Airdrop channel with 1.5 million subscribers both on telegram and Twitter. where my work to research on the project. <br>
+                            Responsibility :-
+                            Do proper research on the project is whether Project is good or bad after analysis of each project makes a report on that. also, I managed social media creating or editing posts. Airdrop Ninja top Airdrop channel with 1.5 million subscribers both on telegram and Twitter. where my work to research on the project. responsibility. Do proper research on the project is whether Project is good or bad after analysis of each project makes a report on that. also, I managed social media creating or editing posts.
+                            <br> Airdrop ninja · Part-timeAirdrop ninja · Part-time <br>Mar 2021 - Present · 1 yr 7 mos 
+                            </li>
+
+           
+                            <li><span>Content Creator</span><br> creating content for crypso a social app for crypto. <br>
+                            Responsibly :- creating content , finding upcoming project do research on them, news writer.<br>Crypso · Part-timeCrypso · Part-time <br>Feb 2022 - Jul 2022 · 6 mos
+                           </li>     
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>Graduation </span><br>International Institute of Professional Studies, IIPS, DAVV,
+                              Bachelor's degree, Information Technology
+                                Oct 2020 - Jul 2025</li>
+                         
+                            <li><span>Class 12th</span><br>Model Excellence School Jabalpur <br>Percentage : 94% · 2019-2020</li>
+
+                            <li><span>Class 10th</span><br>Model Excellence School Jabalpur <br>Percentage : 90% · 2017-2018 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------------------------------- Services ----------------------------------------  -->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+            <i class="fa-brands fa-hive"></i>
+                <h2>BlockChain Tutorial</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque minus, iste nulla asperiores tenetur sunt quae vitae magnam,</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>Solidity</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque minus, iste nulla asperiores tenetur
+                    sunt quae vitae magnam,</p>
+                <a href="#">Learn More</a>
+
+            </div>
+
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Freelancing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque minus, iste nulla asperiores tenetur sunt quae vitae magnam,</p>
+                <a href="#">Learn More</a>
+
+            </div>
+
+        </div>
+    </div>
+   </div>
+
+<!--  ------------------------------------------ PORTFOLIO           ----------------- -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="images/work-1.png" alt="apps">
+                <div class="layer">
+                    <h3>DAPPS</h3>
+                    <P>This is the decentralised application where all cryptoexchanges work and accept.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png" alt="apps">
+                <div class="layer">
+                    <h3>NFT Market Place</h3>
+                    <P>This is the decentralised application where all cryptoexchanges work and accept.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png" alt="apps">
+                <div class="layer">
+                    <h3>Crypto Exhange</h3>
+                    <P>This is the decentralised application where all cryptoexchanges work and accept.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>  
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i>jainanmol56@gmail.com</p>
+               <p> <i class="fa-solid fa-phone"></i>+91 7489486148</p>
+               <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/arihant_20/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <a href=" " class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your E-mail" required>
+                   <textarea name="Message" rows="8" placeholder="Your Message "></textarea>
+                   <button type="Submit" class="btn btn2">Submit </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Anmol. Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }   
+
+            event.currentTarget.classList.add("active-links");
+              document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+      
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = " 0 " ;
+        }
+        function closemenu() {
+                sidemenu.style.right = " -200px ";
+            }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwhvSyw1jASnAnRu1eS0l8fjpDXXoNLZXWKa592D3Fd9I0rUBdhkuBnv1BN2s1nwps/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function(){
+                            msg.innerHTML= ""
+                   },5000)
+                   form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body> 
+</html>
